@@ -2,8 +2,8 @@ import json
 import os
 import urllib.request
 
-JSON_FILE = ""
-OUTPUT_DIR = ""
+JSON_FILE = "" # Path to the Snapchat JSON file you downloaded
+OUTPUT_DIR = "" # Where you want your videos to be saved
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
